@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+
+:root{
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: "Passion One", sans-serif;
+
+    --color1: black;
+}
+
+/*------------------------------------------PARTE DO HEADER--------------------------------------------------*/
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: white;
+    background-color: var(--color1);
+    padding: 11.25px;
+}
+
+img#imagemdacarta{
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+img#imagemescrita{
+    display: block;
+    margin: auto;
+}
+
+/*------------------------------------------------NAV--------------------------------------------------------*/
+nav{
+    margin-top: 23px;
+}
+
+ul#menu > li{
+    list-style-type: none;
+    margin: 10px 7px 0PX 7px;
+}
+
+ul#menu li{
+    list-style-type: none;
+}
+
+ul#menu > li.opcoes_do_menu{
+    display: inline-block;
+}
+
+ul#menu li a{
+    color: white;
+    text-decoration: none;
+    font: bold 1em var(--font1);
+}
+
+ul#menu li a:hover{
+    text-decoration: underline;
+}
+
+ul#menu > li#menu_do_ministerio > ul{
+    display: none;
+    position: absolute;
+    background-color: var(--color1);
+}
+
+ul#menu > li#menu_do_ministerio:hover > ul{
+    display: block;
+}
+
+ul#menu > li#menu_do_ministerio > ul > li{
+    padding: 10px;
+}
+
+/*--------------------------------------------------MAIN-----------------------------------------------------*/
+h1{
+    font: bold 2.2em var(--font2);
+}
+
+section#quem_somos{
+    padding: 15px 15px 7.5px 15px;
+}
+
+section#quem_somos > h1{
+    font-family: var(--font2);
+    color: rgb(95, 95, 95);
+    text-align: center;
+    margin: 15px 0px;
+}
+
+section#quem_somos > p#versiculo{
+    margin: 30px auto 10px auto;
+}
+
+section#quem_somos > p#hebreus_10_25{
+    text-align: left;
+    margin: 25px auto;
+}
+
+section#quem_somos > p#hebreus_10_25 > a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+}
+
+section#quem_somos > p#hebreus_10_25 > a:hover{
+    text-decoration: underline;
+}
+
+section#quem_somos > p{
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.1em;
+}
+
+section#imagem_da_igreja > img{
+    width: 100%;
+}
+
+img.imagens_dos_integrantes{
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+
+section#ministerio{
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+section#ministerio a{
+    text-decoration: none;
+    color: black;
+}
+
+section#ministerio a:hover{
+    text-decoration: underline;
+}
+
+section#ministerio > div#centralizar_as_imagens{
+    text-align: center;
+    margin: auto 20px;
+}
+
+section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--font2);
+}
+
+section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério > img{
+    margin: 7px auto 3px auto;
+    width: 400px;
+    height: 286px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+section#acampamento{
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+section#acampamento > img{
+    margin: 25px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+section#acampamento > p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+/*--------------------------------------------------FOOTER---------------------------------------------------*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p{
+    font-size: 0.9em;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
