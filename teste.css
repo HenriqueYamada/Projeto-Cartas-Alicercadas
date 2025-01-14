@@ -131,8 +131,13 @@ section#imagem_da_igreja > img{
 }
 
 section#ministerio{
-    margin: 30px auto;
+    margin: 15px auto;
     max-width: 900px;
+    padding: 20px;
+}
+
+section#ministerio h2{
+    margin-top: 15px;
 }
 
 section#ministerio a{
@@ -151,14 +156,14 @@ section#ministerio > div#centralizar_as_imagens{
 
 section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério{
     display: inline-block;
-    padding: 10px;  
+    padding: 10px;
     text-align: center;
     font-family: var(--font2);
 }
 
 section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes{
     max-width: 400px;
-    height: 286px;
+    max-height: 286px;
 }
 
 section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes img{
@@ -172,11 +177,11 @@ section#acampamento{
     margin: auto;
     text-align: center;
     max-width: 800px;
-    padding: 20px;
+    padding: 10px;
 }
 
 section#acampamento > img{
-    margin: 25px auto;
+    margin: 20px auto;
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
