@@ -90,6 +90,10 @@ h1{
     font: bold 2.2em var(--font2);
 }
 
+main{
+    margin-bottom: 10px;
+}
+
 section#quem_somos{
     padding: 15px 15px 7.5px 15px;
 }
@@ -174,7 +178,6 @@ section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes img{
 
 section#acampamento{
     margin: auto;
-    margin-bottom: 5px;
     text-align: center;
     max-width: 800px;
     padding: 18px;
