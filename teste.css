@@ -26,6 +26,11 @@ header{
     padding: 11.25px;
 }
 
+div#ajustar_o_tamanho_das_imagens_do_header{
+    max-width: 397px;
+    margin: auto;
+}
+
 img#imagemdacarta{
     display: block;
     margin: auto;
@@ -35,6 +40,7 @@ img#imagemdacarta{
 img#imagemescrita{
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 /*------------------------------------------------NAV--------------------------------------------------------*/
@@ -124,12 +130,6 @@ section#imagem_da_igreja > img{
     width: 100%;
 }
 
-img.imagens_dos_integrantes{
-    position: relative;
-    display: inline;
-    text-align: center;
-}
-
 section#ministerio{
     margin: 30px auto;
     max-width: 900px;
@@ -151,17 +151,21 @@ section#ministerio > div#centralizar_as_imagens{
 
 section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério{
     display: inline-block;
-    padding: 10px;
+    padding: 10px;  
     text-align: center;
     font-family: var(--font2);
 }
 
-section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério > img{
-    margin: 7px auto 3px auto;
-    width: 400px;
+section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes{
+    max-width: 400px;
     height: 286px;
+}
+
+section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes img{
+    margin: 7px auto 3px auto;
     border-radius: 5px;
     border: 1px solid black;
+    width: 100%;
 }
 
 section#acampamento{
