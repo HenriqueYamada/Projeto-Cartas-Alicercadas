@@ -137,7 +137,7 @@ section#ministerio{
 }
 
 section#ministerio h2{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 section#ministerio a{
@@ -156,7 +156,6 @@ section#ministerio > div#centralizar_as_imagens{
 
 section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério{
     display: inline-block;
-    padding: 10px;
     text-align: center;
     font-family: var(--font2);
 }
@@ -177,7 +176,7 @@ section#acampamento{
     margin: auto;
     text-align: center;
     max-width: 800px;
-    padding: 10px;
+    padding: 18px;
 }
 
 section#acampamento > img{
