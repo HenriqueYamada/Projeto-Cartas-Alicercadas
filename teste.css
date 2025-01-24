@@ -162,6 +162,7 @@ section#ministerio > div#centralizar_as_imagens > div.integrantes_do_ministério
     display: inline-block;
     text-align: center;
     font-family: var(--font2);
+    padding: 5px;
 }
 
 section#ministerio div.ajustar_o_tamanho_das_imagens_dos_integrantes{
